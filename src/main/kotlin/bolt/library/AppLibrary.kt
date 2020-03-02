@@ -131,10 +131,21 @@ class AppLibrary {
 
     @Throws(Exception::class)
     fun enterText(driver: AppiumDriver<MobileElement>, locator: String, textVal: String) {
-//        driver.manage().timeouts().implicitlyWait(GLOBALTIMEOUT, TimeUnit.SECONDS)
-        findElement(driver, locator).click()
-        findElement(driver, locator).clear()
-        findElement(driver, locator).sendKeys(textVal)
+        var i = 3
+        while (i > 0) {
+            try {
+                findElement(driver, locator).click()
+                findElement(driver, locator).clear()
+                findElement(driver, locator).sendKeys(textVal)
+                break
+            } catch (e: Exception) {
+                if ((e.message)!!.contains("ElementNotFoundException", true)) {
+                    break
+                }
+                sleep(2000)
+            }
+            i--
+        }
     }
 
     fun sleep(milliSeconds: Long) {
@@ -190,7 +201,6 @@ class AppLibrary {
 
         throw Exception("WebView ParentID parent was not found in available contexts")
     }
-
 
     fun switchContext(driver: AppiumDriver<MobileElement>, contextTitle: String): AppiumDriver<MobileElement> {
 

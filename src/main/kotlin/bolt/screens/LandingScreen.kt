@@ -1,15 +1,17 @@
 package bolt.screens
 
 import bolt.library.AppLibrary
+import bolt.library.PlatformTouchAction
 import com.upwork.automation.Configuration
 import io.appium.java_client.AppiumDriver
 import io.appium.java_client.MobileElement
-import javax.swing.Spring.height
-import io.appium.java_client.touch.offset.PointOption
-import java.awt.SystemColor.window
-import com.sun.awt.SecurityWarning.getSize
 import io.appium.java_client.TouchAction
+import io.appium.java_client.touch.ActionOptions
+import io.appium.java_client.touch.offset.PointOption
 import org.openqa.selenium.interactions.touch.TouchActions
+import javax.swing.Spring.height
+
+
 
 
 class LandingScreen(private var applib: AppLibrary) {
@@ -23,7 +25,7 @@ class LandingScreen(private var applib: AppLibrary) {
     val iosDoneButton = "id:Done"
     val iosProdSettings = "name:Prod"
     val iosStageSettings = "name:Stage"
-    val iosStage = "xpath://XCUIElementTypeSheet[@name='Select an environment']//XCUIElementTypeButton[@name='Stage']"
+    val iosOptions = "xpath://XCUIElementTypeScrollView//XCUIElementTypeButton[@name='Replace']"
     val iosActivity = "com.upwork.ios.apps.bolt"
     val iosLoginButton = "name:Log In"
 
@@ -36,18 +38,26 @@ class LandingScreen(private var applib: AppLibrary) {
     val andLoginButton = "id:loginButton"
 
 
-    fun selectEnvironement(env: String) {
+    fun selectEnvironment(env: String) {
 
         var conf = Configuration();
 
-        if (conf.platform.equals("android", true)) {
+        val logo: MobileElement =
+            applib.findElement(driver, (if (conf.platform.equals("android", true)) andLogo else iosLogo))
+        logo.click()
+        applib.sleep(1000)
 
-            val logo: MobileElement = applib.findElement(driver, andLogo)
-            logo.click()
-            logo.click()
-            logo.click()
-            logo.click()
-            logo.click()
+        var action = PlatformTouchAction(driver)
+        val d = driver.manage().window().size
+        val p = PointOption.point(d.width / 2, (0.15 * d.height).toInt())
+        println("Screen Dimensions:Height-" + d.height.toString() + ":Width-" + d.width)
+
+        for (i in 1..5) {
+            action.tap(p).perform()
+        }
+        applib.sleep(1000)
+
+        if (conf.platform.equals("android", true)) {
 
             applib.clickMobileElement(driver, andEnableNativeMenus)
             applib.clickMobileElement(driver, andEnvironmentSelect)
@@ -62,28 +72,10 @@ class LandingScreen(private var applib: AppLibrary) {
 
         } else {
 
-            var logo = applib.findElement(driver, iosLogo)
-            applib.sleep(5000)
-            logo.click()
-            logo.click()
-            logo.click()
-            logo.click()
-            logo.click()
-            logo.click()
-
-//            val action = TouchActions(driver)
-//            val d = driver.manage().window().size
-//            println(d.height.toString() + ":" + d.width)
-//            val x = d.width / 2
-//            val y = (0.15 * d.height) as Int
-//
-//            for (i in 1..5) {
-//                action.down(x,y).up(x,y).perform()
-//            }
-
-            applib.sleep(1000)
             applib.clickMobileElement(driver, iosEnableDebug)
             applib.clickMobileElement(driver, iosDoneButton)
+            applib.clickMobileElement(driver, iosProdSettings)
+            applib.clickMobileElement(driver, iosOptions.replace("Replace", env))
             applib.sleep(1000)
             driver.activateApp(iosActivity)
             applib.sleep(1000)
