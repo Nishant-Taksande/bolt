@@ -1,0 +1,1933 @@
+{
+  "pageInfoList": [
+    {
+      "urlRegex": "^/ab/find-work/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "icon": 59859,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/find-work/domestic/details/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/jobs/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "icon": 59859,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/o/jobs/browse/sc/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/o/jobs/browse/skill/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/o/jobs/browse/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "icon": 59859,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/jobs/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Job details",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/profiles/search/?(?:\\?.*)?$",
+      "title": "Freelancers",
+      "transitionType": "slider",
+      "icon": 59859,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/o/jobs/browse/saved/?(?:\\?.*)?$",
+      "title": "Saved jobs",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/profiles/search/saved$",
+      "title": "Saved",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/profiles/search/hires$",
+      "title": "Hired",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/new/(?:category|new-or-existing)/?(?:\\?.*)?$",
+      "title": "Getting started",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/new/invite/?(?:\\?.*)?$",
+      "title": "Post a job",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Post a job",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/title/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/describe/?(?:\\?.*)?$",
+      "title": "Description",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/expertise/(?:skills|ontology)/?(?:\\?.*)?$",
+      "title": "Expertise",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/location/?(?:\\?.*)?$",
+      "title": "Location",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/visibility/?(?:\\?.*)?$",
+      "title": "Visibility",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/budget/?(?:\\?.*)?$",
+      "title": "Budget",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/preferences/?(?:\\?.*)?$",
+      "title": "Talent preferences",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/job-post/[^/\\?]+/[^/\\?]+/review/?(?:\\?.*)?$",
+      "title": "Review",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/job/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Job details",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/job/[^/\\?]+/apply/?(?:\\?.*)?$",
+      "title": "Submit proposal",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/proposals/job/[^/\\?]+/apply/?(?:\\?.*)?$",
+      "title": "Submit proposal",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/proposals/?(?:\\?.*)?$",
+      "title": "Proposals",
+      "transitionType": "slider",
+      "icon": 59714,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/proposals/interview/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Invitation to interview",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/freelancers/?(?:\\?.*)?$",
+      "title": "Freelancer profile",
+      "transitionType": "slider",
+      "icon": 59901,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/fl/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Freelancer profile",
+      "transitionType": "slider",
+      "icon": 59901,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/o/profiles/users/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Freelancer profile",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/freelancers/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Freelancer profile",
+      "transitionType": "slider",
+      "icon": 59901,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/my-stats/?(?:\\?.*)?$",
+      "title": "My stats",
+      "transitionType": "slider",
+      "icon": 59797,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/profile/?(?:\\?.*)?$",
+      "title": "Contact info",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/agency-settings/?(?:\\?.*)?$",
+      "title": "Agency profile",
+      "transitionType": "slider",
+      "icon": 59901,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/agencies/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Agency profile",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/applications/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Invitation to interview",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/proposals/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Proposal details",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/freelancers/agency/roster/?(?:\\?.*)?$",
+      "title": "Agency roster",
+      "transitionType": "slider",
+      "icon": 59885,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/staffing-manager-console/?(?:\\?.*)?$",
+      "title": "Agency roster",
+      "transitionType": "slider",
+      "icon": 59885,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/d/contracts/[^/\\?]+/close/?(?:\\?.*)?$",
+      "title": "End contract",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/feedbacks/?(?:\\?.*)?$",
+      "title": "End contract",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/freelancers/id/verification/?(?:\\?.*)?$",
+      "title": "Identity verification",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/freelancers/settings/contactInfo/?(?:\\?.*)?$",
+      "title": "Contact info",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/freelancers/settings/profile/?(?:\\?.*)?$",
+      "title": "Profile settings",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/profile/settings/?(?:\\?.*)?$",
+      "title": "Profile settings",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/portfolios/?(?:\\?.*)?$",
+      "title": "Add portfolio project",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/portfolios(/[^\\/\\?]+)?/select-template/?(?:\\?.*)?$",
+      "title": "Select template",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/portfolios(/[^\\/\\?]+)?/details/?(?:\\?.*)?$",
+      "title": "Add details",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/portfolios(/[^\\/\\?]+)?/preview/?(?:\\?.*)?$",
+      "title": "Preview",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/portfolios/[^\\/\\?]+/?(?:\\?.*)?$",
+      "title": "Update portfolio project",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/tests/?(?:\\?.*)?$",
+      "title": "Tests",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/tests/main/?(?:\\?.*)?$",
+      "title": "Tests",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/exams/index/?(?:\\?.*)?$",
+      "title": "Exams",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/exams/view-private/?(?:\\?.*)?$",
+      "title": "Exams",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/workflow/?(?:\\?.*)?$",
+      "title": "Workflow",
+      "transitionType": "slider",
+      "icon": 59834,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/enterprise-compliance/freelancer-questionnaire(/[^/\\?]+)+?(?:\\?.*)?$",
+      "title": "Freelancer questionnaire",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/onboarding/?(?:\\?.*)?$",
+      "title": "Onboarding",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/onboarding/cloud/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Onboarding",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/linked-accounts/?(?:\\?.*)?$",
+      "title": "Linked accounts",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/my-info/linked-accounts/?(?:\\?.*)?$",
+      "title": "Linked accounts",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/byo(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Bring your own",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/enterprise-homepage/?(?:\\?.*)?$",
+      "title": "Home",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/enterprise-homepage/setup/?(?:\\?.*)?$",
+      "title": "Enterprise preferences",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/enterprise-homepage/ready-made(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Jumpstarter",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/invite-coworker/?(?:\\?.*)?$",
+      "title": "Invite a coworker",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/onboarding/?(?:\\?.*)?$",
+      "title": "Onboarding",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/talent-clouds-dashboard/?(?:\\?.*)?$",
+      "title": "Talent clouds",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/custom-fields/?(?:\\?.*)?$",
+      "title": "Custom fields",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/purchase-orders/?(?:\\?.*)?$",
+      "title": "Purchase orders",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/terms(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Contract terms",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc/tcs(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Talent clouds",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ptc(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Enterprise",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/enterprise-jobs(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Post a job",
+      "transitionType": "modal",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/enterprise-compliance(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Compliance",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/ent/program(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Enterprise program",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/agencies/?(?:\\?.*)?$",
+      "title": "Agencies",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/statements/T\\d+.pdf/?(?:\\?.*)?$",
+      "title": "Invoice",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/billing-history/.*\\.(?:zip|csv)/?(?:\\?.*)?$",
+      "title": "Billing history",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/earnings-history/.*\\.(?:zip|csv)/?(?:\\?.*)?$",
+      "title": "Earnings history",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/certificate-of-earnings.pdf.*/?(?:\\?.*)?$",
+      "title": "Certificate of earnings",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/reports/relationship-values/csv/?(?:\\?.*)?$",
+      "title": "Reports",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/account-security/device-authorization/?(?:\\?.*)?$",
+      "title": "Device authorization",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/account-security/forgot-security-answer/?(?:\\?.*)?$",
+      "title": "Forgot security answer",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/account-security/reenter-password/?(?:\\?.*)?$",
+      "title": "Re-enter password",
+      "transitionType": "slider",
+      "allowRedirects": 1,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/account-security/password-and-security/?(?:\\?.*)?$",
+      "title": "Password & security",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/edit-credit-card/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Edit card",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/tax-info/?(?:\\?.*)?$",
+      "title": "Tax information",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/add-paypal/?(?:\\?.*)?$",
+      "title": "Add PayPal",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/edit-paypal/?(?:\\?.*)?$",
+      "title": "Edit PayPal",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/add-mpesa/?(?:\\?.*)?$",
+      "title": "Add M-PESA",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/edit-mpesa/?(?:\\?.*)?$",
+      "title": "Edit M-PESA",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/deposit-methods/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Billing & payments",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/deposit-methods/?\\?add-paypal",
+      "title": "Billing & payments",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/deposit-methods/?(?:\\?.*)?$",
+      "title": "Billing & payments",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/deposit-methods/?(?:\\?.*)?$",
+      "title": "Billing methods",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/earnings-history(?:/[^/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Earnings history",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/reports/relationship-values/?(?:\\?.*)?$",
+      "title": "Relationship values",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/certificate-of-earnings.pdf/?(?:\\?.*)?$",
+      "title": "Certificate of earnings",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/payoneer/registration/?(?:\\?.*)?$",
+      "title": "Payoneer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/add-wire-transfer/?(?:\\?.*)?$",
+      "title": "Wire transfer",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/edit-wire-transfer(?:/[^/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Edit wire transfer",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/add-local-bank-transfer/?(?:\\?.*)?$",
+      "title": "Local bank transfer",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/payments/[^/\\?]+/edit-local-bank-transfer/?(?:\\?.*)?$",
+      "title": "Edit local transfer",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/add-direct-deposit/?(?:\\?.*)?$",
+      "title": "Add direct deposit",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/edit-direct-deposit/?(?:\\?.*)?$",
+      "title": "Edit direct deposit",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/disbursement-methods/?(?:\\?.*)?$",
+      "title": "Get paid",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/disbursement-methods/?(?:\\?.*)?$",
+      "title": "Get paid",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/disbursement-methods/?(?:\\?.*)?$",
+      "title": "Get paid",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/disburse/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Get paid now",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/disburse/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Get paid now",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/billing-history/?(?:\\?.*)?$",
+      "title": "Billing history",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/financial-accounts/?(?:\\?.*)?$",
+      "title": "Financial accounts",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/verify-id-fivs/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/disputes/?(?:\\?.*)?$",
+      "title": "Disputes",
+      "transitionType": "external",
+      "icon": 59723,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/identity-verification/?(?:\\?.*)?$",
+      "title": "Identity verification",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/account-security/reset-password/?(?:\\?.*)?$",
+      "title": "Reset password",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/payments/[^/\\?]+/edit-bank-account/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Edit bank account",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/billing-history/?(?:\\?.*)?$",
+      "title": "Billing history",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/account-security/reset-security-question/?(?:\\?.*)?$",
+      "title": "Reset security question",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/?(?:\\?.*)?$",
+      "title": "Reports",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/reports/company/export/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/reports/company/time-by-activity/?(?:\\?.*)?$",
+      "title": "Time by activity",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/reports/company/time-by-freelancer/?(?:\\?.*)?$",
+      "title": "Time by freelancer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/reports/company/timesheet/?(?:\\?.*)?$",
+      "title": "Timesheet",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/reports/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Reports",
+      "transitionType": "slider",
+      "icon": 59892,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/budgets/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/export/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/financial/weekly/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/monthly/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/tasks/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/time-by-activity/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/time-by-freelancer/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/timelog/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/timelogs/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/timesheet/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/weekly/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/work/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/company/workdiary/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/earnings/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/export/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/pc/timelog/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/pc/timelogs/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/pc/weekly/buyer/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/pc/weekly/provider/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/timeanalyze/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/timelog/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/timelogs/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/reports/weekly/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/offer/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Offer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/offer/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Offer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/offer/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Offer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/a/[^/\\?]+/offer/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Offer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/home/?(?:\\?.*)?$",
+      "title": "Contracts",
+      "transitionType": "slider",
+      "icon": 59776,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/a/[^/\\?]+/contracts/?(?:\\?.*)?$",
+      "title": "Contracts",
+      "transitionType": "slider",
+      "icon": 59776,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/proposals/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Proposed contract",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/proposals/new/?(?:\\?.*)?$",
+      "title": "Propose new contract",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/mp2/?(?:\\?.*)?$",
+      "title": "Team members",
+      "transitionType": "slider",
+      "icon": 59902,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/reports/company/dashboard/?(?:\\?.*)?$",
+      "title": "Reports",
+      "transitionType": "slider",
+      "icon": 59892,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/?(?:\\?.*)?$",
+      "title": "Contracts",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/a/[^/\\?]+/contracts/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/contracts/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/escrow-refund-request/process/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/a/[^/\\?]+/contracts/[^/\\?]+/escrow-refund-request/process/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/give-refund/?(?:\\?.*)?$",
+      "title": "Give refund",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/f/contracts/[^/\\?]+/escrow-refund-request/?(?:\\?.*)?$",
+      "title": "Escrow refund request",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/companies/staff-permissions/?(?:\\?.*)?$",
+      "title": "Members & permissions",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/members-permissions/?(?:\\?.*)?$",
+      "title": "Members & permissions",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/companies/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Agency profile",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/workdiary/agency/?(?:\\?.*)?$",
+      "title": "Work diary",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/workdiary/freelancer/?(?:\\?.*)?$",
+      "title": "Work diary",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/workdiary/reports/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/workdiary/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/m(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "icon": 59676,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/[^/\\?]+/all-postings/?(?:\\?.*)?$",
+      "title": "Job postings",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/share-upwork/?(?:\\?.*)?$",
+      "title": "Share Upwork",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/upwork-plus/tos-agreement/?(?:\\?.*)?$",
+      "title": "Terms of service",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/upwork-plus/trial/?(?:\\?.*)?$",
+      "title": "Upwork plus",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/invite-to-team/?(?:\\?.*)?$",
+      "title": "Invite coworkers",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home/dnr/(?:initial|coworker-settings|invite-coworkers)/?(?:\\?.*)?$",
+      "title": "Company settings",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/jobs-home(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Jobs",
+      "transitionType": "slider",
+      "icon": 59676,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/p/invitation/user(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Invite a new user",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/p/invitation/error/?(?:\\?.*)?$",
+      "title": "Cannot join team",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/signup/?(?:\\?.*)?$",
+      "title": "Create an account",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/signup/please-verify/?(?:\\?.*)?$",
+      "title": "Verify your email",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/signup/create-account(/[^\\/\\?]+)?/?(?:\\?.*)?$",
+      "title": "Create an account",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/a/[^/\\?]+/home/?(?:\\?.*)?$",
+      "title": "My jobs",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/contracts/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/contracts/?(?:\\?.*)?$",
+      "title": "Contracts",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/offer/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Offer",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/contracts/[^/\\?]+/escrow-refund-request/?(?:\\?.*)?$",
+      "title": "Escrow refund request",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/contract-proposals/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Proposed contract",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/e/[^/\\?]+/offers/v2/new/?(?:\\?.*)?$",
+      "title": "Offer details",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/contracts/[^/\\?]+/refund-requests/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Contract room",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/offer/[^/\\?]+/need-more-hiring/?(?:\\?.*)?$",
+      "title": "Offer sent",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/c/[^/\\?]+/escrow-balance/?(?:\\?.*)?$",
+      "title": "Escrow balance",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/services/api",
+      "title": "API center",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/messages/att/",
+      "title": "Attachment",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/messages/files/",
+      "title": "Attachment",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/api/v3/wp-files/",
+      "title": "Attachment",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/messages/?(?:\\?.*)?$",
+      "title": "Messages",
+      "transitionType": "slider",
+      "icon": 59807,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/messages/rooms/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Room details",
+      "transitionType": "slider",
+      "parentUrlRegex": "^/messages/?(?:\\?.*)?$",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/messages/?(?:\\?.*)?$",
+      "title": "Messages",
+      "transitionType": "slider",
+      "icon": 59807,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/messages/rooms/?(?:\\?.*)?$",
+      "title": "Messages",
+      "transitionType": "slider",
+      "icon": 59807,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/messages/room/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Room details",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/notifications/?(?:\\?.*)?$",
+      "title": "Alerts",
+      "transitionType": "slider",
+      "icon": 59821,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/notifications/?(?:\\?.*)?$",
+      "title": "Alerts",
+      "transitionType": "slider",
+      "icon": 59821,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/notification-settings/?(?:\\?.*)?$",
+      "title": "Notification settings",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/UserSettings/notification-settings/?(?:\\?.*)?$",
+      "title": "Notification settings",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/messages/plugins/?(?:\\?.*)?$",
+      "title": "Integrations",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/my-info/?(?:\\?.*)?$",
+      "title": "Company profile",
+      "transitionType": "slider",
+      "icon": 59652,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/plans",
+      "title": "Membership",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/p/myteams/?(?:\\?.*)?$",
+      "title": "My teams",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/p/teams/?(?:\\?.*)?$",
+      "title": "My teams",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/company-teams/list/?(?:\\?.*)?$",
+      "title": "My teams",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/activities/?(?:\\?.*)?$",
+      "title": "Title",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/downloads/?(?:\\?.*)?$",
+      "title": "Upwork desktop app",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/att/",
+      "title": "Attachment",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 1,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/settings/?(?:\\?.*)?$",
+      "title": "Settings",
+      "transitionType": "slider",
+      "icon": 59861,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^https://odesk[^./]+.zendesk.com/login/?(?:\\?.*)?$",
+      "title": "Help & support",
+      "transitionType": "external",
+      "icon": 59836,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^https://support.upwork.com/login/?(?:\\?.*)?$",
+      "title": "Help & support",
+      "transitionType": "external",
+      "icon": 59836,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^http://community.upwork.com/?(?:\\?.*)?$",
+      "title": "Community & forums",
+      "transitionType": "external",
+      "icon": 59710,
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/legal/?",
+      "title": "Legal center",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/info/terms/privacy/?(?:\\?.*)?$",
+      "title": "Privacy policy",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/info/terms/?(?:\\?.*)?$",
+      "title": "Terms of service",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/i/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Info",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/hiring/",
+      "title": "Hiring",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/compliance/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Compliance",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/blog",
+      "title": "Blog",
+      "transitionType": "external",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/applicants/[^/\\?]+/?(?:\\?.*)?$",
+      "title": "Proposal manager",
+      "transitionType": "slider",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": [
+        {
+          "url": "job-details"
+        },
+        {
+          "url": "suggested"
+        },
+        {
+          "url": "applicants"
+        },
+        {
+          "url": "hired"
+        }
+      ]
+    },
+    {
+      "urlRegex": "^/ab/applicants/[^/\\?]+/job-details/?(?:\\?.*)?$",
+      "title": "View job",
+      "transitionType": "slider",
+      "parentUrlRegex": "^/ab/applicants/[^/\\?]+/?(?:\\?.*)?$",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/applicants/[^/\\?]+/(?:suggested|pending|hires|saved)/?(?:\\?.*)?$",
+      "title": "Invite",
+      "transitionType": "slider",
+      "parentUrlRegex": "^/ab/applicants/[^/\\?]+/?(?:\\?.*)?$",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/applicants/[^/\\?]+/(?:applicants|shortlisted|messaged|archived)/?(?:\\?.*)?$",
+      "title": "Review",
+      "transitionType": "slider",
+      "parentUrlRegex": "^/ab/applicants/[^/\\?]+/?(?:\\?.*)?$",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    },
+    {
+      "urlRegex": "^/ab/applicants/[^/\\?]+/(?:offers|hired)/?(?:\\?.*)?$",
+      "title": "Hire",
+      "transitionType": "slider",
+      "parentUrlRegex": "^/ab/applicants/[^/\\?]+/?(?:\\?.*)?$",
+      "allowRedirects": 0,
+      "isFile": 0,
+      "tabs": []
+    }
+  ]
+}
