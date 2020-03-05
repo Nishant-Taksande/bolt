@@ -18,7 +18,7 @@ class LoginTest : TestBase("LoginTest") {
     fun loginTest() {
         var ls = LandingScreen(appLib)
         ls.selectEnvironment(appLib.config.appEnvironment)
-        ls.clickLogin().login("free143")
+        ls.clickLogin().login("free2")
 
     }
 

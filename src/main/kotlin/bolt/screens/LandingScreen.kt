@@ -38,7 +38,7 @@ class LandingScreen(private var applib: AppLibrary) {
     val andLoginButton = "id:loginButton"
 
 
-    fun selectEnvironment(env: String) {
+    fun selectEnvironment(env: String): LandingScreen {
 
         var conf = Configuration();
 
@@ -82,6 +82,7 @@ class LandingScreen(private var applib: AppLibrary) {
 
         }
 
+        return LandingScreen(applib)
     }
 
     fun clickLogin(): LoginScreen {

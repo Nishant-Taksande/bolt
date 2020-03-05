@@ -12,8 +12,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile "org.testng:testng:7.1.0"
-    compile "io.appium:java-client:7.0.0"
-    compile "org.seleniumhq.selenium:selenium-java:3.14.0"
+    compile group: 'io.appium', name: 'java-client', version: '7.3.0'
 }
 
 sourceSets {
