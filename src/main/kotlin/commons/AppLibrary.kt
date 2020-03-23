@@ -1,6 +1,5 @@
-package bolt.library
+package com.upwork.automation
 
-import com.upwork.automation.Configuration
 import java.util.concurrent.TimeUnit
 import io.appium.java_client.MobileElement
 import io.appium.java_client.AppiumDriver
@@ -17,12 +16,11 @@ import org.openqa.selenium.TakesScreenshot
 import java.io.IOException
 import java.util.*
 
-
 class AppLibrary {
 
     val GLOBALTIMEOUT: Long = 100
-    lateinit var driver: AppiumDriver<MobileElement>
     var config: Configuration = Configuration()
+    lateinit var driver: AppiumDriver<MobileElement>
 
     fun launchDriver(): AppiumDriver<MobileElement> {
 
@@ -55,13 +53,14 @@ class AppLibrary {
 
         caps.capabilityNames.forEach {
             System.out.println(it + ":" + caps.getCapability(it))
+            Reporter.log(it + ":" + caps.getCapability(it))
         }
+        Reporter.log(config.url)
         System.out.println(config.url)
 
-        driver = AppiumDriver(URL("http://" + config.url + "/wd/hub"), caps)
-        driver.manage().timeouts().implicitlyWait(GLOBALTIMEOUT, TimeUnit.SECONDS)
-        return driver
-
+        this.driver = AppiumDriver(URL("http://" + config.url + "/wd/hub"), caps)
+        this.driver.manage().timeouts().implicitlyWait(GLOBALTIMEOUT, TimeUnit.SECONDS)
+        return this.driver
     }
 
     fun findElement(driver: AppiumDriver<MobileElement>, locatorString: String): MobileElement {
@@ -99,11 +98,9 @@ class AppLibrary {
         return element
     }
 
-    fun closeBrowser() {
-//        if (driver != null) {
+    fun closeApp() {
         driver.quit()
         println("Closing the Browser Successfully")
-//        }
     }
 
     @Throws(Exception::class)
@@ -131,8 +128,8 @@ class AppLibrary {
 
     @Throws(Exception::class)
     fun enterText(driver: AppiumDriver<MobileElement>, locator: String, textVal: String) {
-        var i = 3
-        while (i > 0) {
+        var i = 0
+        while (i < 5) {
             try {
                 findElement(driver, locator).click()
                 findElement(driver, locator).clear()
@@ -144,7 +141,12 @@ class AppLibrary {
                 }
                 sleep(2000)
             }
-            i--
+            i++
+        }
+
+        if (i == 5) {
+            driver.manage().timeouts().implicitlyWait(GLOBALTIMEOUT, TimeUnit.SECONDS)
+            throw Exception("Element not found:$locator")
         }
     }
 
@@ -243,6 +245,7 @@ class AppLibrary {
     @Throws(IOException::class)
     fun getScreenshot(name: String) {
         val path = "screenshots/$name"
+        driver.context("NATIVE_APP")
         val src = (driver as TakesScreenshot).getScreenshotAs<File>(OutputType.FILE)
         FileUtils.copyFile(src, File(path))
         println("screenshot at :$path")

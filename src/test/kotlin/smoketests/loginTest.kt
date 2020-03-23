@@ -1,24 +1,36 @@
 package com.upwork.automation.smoketests
 
-import bolt.library.AppLibrary
-import bolt.screens.LandingScreen
+import robots.onHomeScreen
+import robots.onLandingScreen
+import robots.onLoginScreen
+import robots.platform
 import com.upwork.automation.TestBase
-import org.testng.annotations.BeforeClass
 import org.testng.annotations.Test
 
-class LoginTest : TestBase("LoginTest") {
 
-    @BeforeClass
-    fun setUp() {
-        appLib = AppLibrary()
-        appLib.launchDriver()
-    }
+class LoginTestJW : TestBase("LoginTest") {
 
     @Test
     fun loginTest() {
-        var ls = LandingScreen(appLib)
-        ls.selectEnvironment(appLib.config.appEnvironment)
-        ls.clickLogin().login("free2")
+
+        platform {
+
+            setAppLibrary(launchApp())
+
+            onLandingScreen {
+                selectEnvironment()
+                verifyUI()
+                clickLogin()
+            }
+            onLoginScreen {
+                verifyUI()
+                login("free17", "strange!")
+            }
+            onHomeScreen {
+                logout()
+            }
+
+        }
 
     }
 

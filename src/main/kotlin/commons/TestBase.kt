@@ -1,25 +1,24 @@
 package com.upwork.automation
 
-import bolt.library.AppLibrary
 import org.testng.ITestContext
+import org.testng.ITestResult
+import org.testng.Reporter
 import org.testng.annotations.AfterClass
+import org.testng.annotations.AfterMethod
 import org.testng.annotations.BeforeClass
 import java.net.InetAddress
 import java.text.SimpleDateFormat
 import java.util.*
-import java.io.File
-import org.openqa.selenium.TakesScreenshot
-import org.testng.ITestResult
-import org.testng.Reporter
-import org.testng.annotations.AfterMethod
-import java.io.IOException
-import java.lang.Exception
 
 
 open class TestBase(val testName: String) {
 
     lateinit var suite: String
-    lateinit var appLib: AppLibrary
+    private lateinit var appLibrary: AppLibrary
+
+    fun setAppLibrary(appLibrary: AppLibrary) {
+        this.appLibrary = appLibrary
+    }
 
     @BeforeClass(alwaysRun = true)
     fun setUp(context: ITestContext) {
@@ -45,23 +44,25 @@ open class TestBase(val testName: String) {
 
     @AfterClass(alwaysRun = true)
     fun tearDown() {
-        appLib.closeBrowser()
+        appLibrary.closeApp()
     }
 
     @AfterMethod
     fun checkFailure(result: ITestResult) {
+
         if (result.status == ITestResult.FAILURE) {
             try {
-                var screenshotName = result.getName() + "_" + appLib.config.platform + "_" + appLib.randInt() + ".png"
-                appLib.getScreenshot(screenshotName)
+                var screenshotName =
+                    testName + "_" + result.getName() + "_" + appLibrary.config.platform + "_" + appLibrary.randInt() + ".png"
+                appLibrary.getScreenshot(screenshotName)
 
             } catch (e: Exception) {
                 Reporter.log("Failed fetching URL and screenshot due to error:" + e.message, true)
                 e.printStackTrace()
             }
 
-            if (appLib.driver.sessionId != null) {
-                Reporter.log("Session id for " + testName + " is " + appLib.driver.sessionId, true)
+            if (appLibrary.driver.sessionId != null) {
+                Reporter.log("Session id for " + testName + " is " + appLibrary.driver.sessionId, true)
             }
         }
     }

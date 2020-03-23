@@ -1,4 +1,4 @@
-package bolt.library
+package com.upwork.automation
 
 import io.appium.java_client.PerformsTouchActions
 import io.appium.java_client.TouchAction
