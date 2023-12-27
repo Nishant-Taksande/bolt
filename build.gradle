@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    compile "org.testng:testng:7.1.0"
+    compile "org.testng:testng:7.9.0"
     compile group: 'io.appium', name: 'java-client', version: '9.0.0'
 }
 
